@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2_App">
+				<Option output="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/SDL2_App" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 SDL2_App"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2_App/fast">
+				<Option output="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/SDL2_App" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 SDL2_App/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game">
+				<Option output="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game/fast">
+				<Option output="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Graphics/Databank.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Graphics/Databank.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Graphics/Texture.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Graphics/Texture.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Init/Controller.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Init/Controller.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Init/Game.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Init/Game.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Init/main.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Bullet.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Bullet.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/ContinueButton.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/ContinueButton.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Element.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Element.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Entity.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Entity.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/GameStart.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/GameStart.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Gun.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Gun.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/HealthBar.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/HealthBar.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Heart.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Heart.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Inventory.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Inventory.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Key.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Key.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Map.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Map.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Objects.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Objects.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Pirate.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Pirate.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Player.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Player.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/PlayerIcon.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/PlayerIcon.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Position.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Position.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/StaminaBar.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/StaminaBar.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Stats.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Stats.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Sword.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Sword.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/TextBox.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/TextBox.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Tile.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/Tile.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/UnlockedTile.cpp">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/Objects/UnlockedTile.h">
+			<Option target="SDL2_App"/>
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jan/Documents/PA2-Doc/Semestralka/Game/../../../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

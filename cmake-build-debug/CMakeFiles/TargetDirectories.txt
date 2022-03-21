@@ -1,0 +1,4 @@
+/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/CMakeFiles/SDL2_App.dir
+/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jan/Documents/PA2-Doc/Semestralka/Game/cmake-build-debug/CMakeFiles/Game.dir
