@@ -1,1 +1,1 @@
-[video](video/demo.mp4)
+This is a game engine for a 2D RPG game with a simple demo that can be seen in this [video](video/demo.mp4). The goal is to find a weapon, beat the enemies, find a key and open the locked door that lead out of the current map. The app can be compiled through a makefile.
